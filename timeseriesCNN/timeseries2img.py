@@ -76,7 +76,7 @@ if __name__ == "__main__":
     # data
     data = Data(X, y)
 
-    data.transform_to_img(methods=["GASF", "GADaF", "MTF"], image_size=0.5)
+    data.transform_to_img(methods=["GASF", "GADF", "MTF"], image_size=0.5)
 
     print(data.X_img.shape)
 
